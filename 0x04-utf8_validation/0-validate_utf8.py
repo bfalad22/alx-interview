@@ -1,9 +1,8 @@
-):
-    """
+"""
     Data: a list of integers
     Return: True if data is a vlid UTF-8
     encoding, else return False
-    """
+"""
     byte_count = 0
 
     for i in data:
